@@ -1,4 +1,4 @@
-makeCacheMatrixthemovie <- function(ekis = matrix()) {
+makeCacheMatrix <- function(ekis = matrix()) {
         baog <- NULL
         setter <- function(y) {
                 x <<- y
@@ -16,7 +16,7 @@ makeCacheMatrixthemovie <- function(ekis = matrix()) {
 
 
 
-cacheSolvent <- function(ekis, ...) {
+cacheSolve <- function(ekis, ...) {
          baog <- x$getmean()
         if(!is.null(baog)) {
                 message("getting cached data")
